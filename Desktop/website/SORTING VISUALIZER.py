@@ -26,7 +26,7 @@ def pattern(visual, l, n):
     for level in range(max_height, 0, -1):
         for bar in visual:
             if bar >= level:
-                print(" [] ", end="")
+                print(" 🟩 ", end="")
             else:
                 print("    ", end="")
         print()
@@ -36,7 +36,7 @@ def pattern(visual, l, n):
 
     print()
     time.sleep(speedset)
-    winsound.Beep(500, 15)
+    winsound.Beep(100,100)
 
 #funtion for updating the screen
 def printing(l):
@@ -93,15 +93,15 @@ os.system('cls')
 #USER MENU
 print("\nSORTING ALGORITHM VISUALIZATION\n")
 while True:
-    l=list(map(int, input("\nENTER NUMBERS SEPERATED BY SPACES : ").split()))
+    l=list(map(int, input("\nENTER NUMBERS SEPARATED BY SPACES : ").split()))
     n=len(l)
-    print("\nPress '1' for SELCTION SORT")
+    print("\nPress '1' for SELECTION SORT")
     print("Press '2' for BUBBLE SORT")
     print("Press '3' for QUICK SORT")
     print("Press '4' for EXIT")
     choice=int(input("\nENTER YOUR CHOICE : "))
     
-    print("\nCHOICE VISULAIZATION SPEED : \nPress '1' for FAST\nPress '2' for MEDIUM\nPress '3' for SLOW\n")
+    print("\nCHOICE VISUALIZATION SPEED : \nPress '1' for FAST\nPress '2' for MEDIUM\nPress '3' for SLOW\n")
     speed=int(input("ENTER YOUR SPEED CHOICE : "))
     if speed==1:
         speedset=0.10

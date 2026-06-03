@@ -1,8 +1,6 @@
 #  Sorting Algorithm Visualizer
 
-A terminal-based Sorting Algorithm Visualizer built in Python by **Aravind** and **Aalwin** during our semester break.
-
-What started as a boredom-driven coding session turned into a fun project that helped us understand sorting algorithms beyond textbook explanations. Instead of simply printing a sorted list, this program visually demonstrates how different sorting algorithms rearrange data step by step in real time.
+A terminal-based Sorting Algorithm Visualizer built in Python.
 
 ---
 

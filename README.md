@@ -133,9 +133,7 @@ Uses a pivot element to partition the array and recursively sorts the resulting 
 
 ## Authors
 
-**Aravind** — Computer Science & Engineering Student
-
-**Aalwin** — Computer Science & Engineering Student
+**Aravind R** andc**Aalwin Rajesh** 
 
 > Built during our semester break as a fun learning project — and an excuse to do something more productive than endlessly scrolling through social media. 😄
 
